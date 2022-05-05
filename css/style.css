@@ -1,0 +1,247 @@
+/* 초기설정 */
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+button {
+  background: inherit;
+  border:none;
+  box-shadow:none;
+  border-radius:0;
+  padding:0;
+}
+
+
+/* 헤더 */
+div {
+  
+}
+
+.header{
+  background: #fff;
+  height: 60px; 
+  position: fixed;
+  top: 0;
+  width: 100%;
+  line-height: 60px;
+}
+.header button {
+  padding: 5px;
+  height: 60px;
+}
+.header > div {
+  height: 60px;
+  width: 33.3%;
+  float: left;
+}
+.header-left img {
+  margin: 5px 0 0 15px;
+  width: 23px;
+}
+.logo{
+  text-align: center;
+}
+.logo img {
+  width: 55px;
+  margin-top: 10px;
+}
+.header-right {
+  text-align: right;
+  padding-top: 3px;
+  padding-right: 15px;
+}
+.header-right img {
+  width: 23px;
+  margin-left: 3px;
+}
+.header-right > button:nth-child(2) > img {
+  margin-bottom: 3px;
+}
+.side-menu {
+  display: none;
+}
+
+/* 메인 아이콘 */
+.container-top {
+  margin-top: 80px;
+  padding: 0 20px;
+}
+.main-big-icon {
+  background: #E4F5FD;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.25);
+  height: 200px;
+  border-radius: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-big-icon > div {
+  margin: 50px 40px;
+}
+.main-big-icon > div > p:nth-child(2) {  
+  padding: 8px 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+.main-big-icon > img {  
+  width: 90px;
+  margin-right: 50px;
+}
+.main-small {
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.main-small-icon {
+  float: left;
+  width: 31%;
+  padding-bottom: 31%;
+
+  background: #ECECEC;
+  box-shadow: 2px 4px 7px -3px rgba(0, 0, 0, 0.25);
+  border-radius: 28px;
+}
+.main-small-icon img {
+}
+
+.sub-link {
+  height: 200px;
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: repeat(4, 1fr)
+}
+.sub-link > div {
+  width: 100%;
+  height: 80px;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+}
+.sub-link > div img {
+  width: 35px;
+  height: 45px;
+}
+.sub-link > div p {
+  font-size: 0.85em;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+/* 컨텐츠 */
+.main-cont {
+  background: #ECECEC;
+  padding: 30px;
+  margin-top: 30px;
+}
+.box-title {
+  font-size: 18px;
+  font-weight: 700;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+.box-title > button {
+  float: right;
+  background-color: #357194;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #fff;
+  font-weight: 700;
+}
+.test-box > ul li {
+  padding: 10px 0;
+}
+.notice-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #21557B;
+}
+.notice-date {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+.bbs-list {
+  display: none;
+}
+
+.footer-menu {
+  height: 50px;
+  background-color: #626262;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 12px;
+  color: #fff;
+}
+.footer-menu span {
+  margin: 0 10px;
+}
+.footer-menu a:first-child {
+  font-weight: 700;
+}
+.footer-copyright {
+  height: 150px;
+  background: #F4F4F4;
+  padding: 40px;
+  font-size: 10px;
+}
+.footer-copyright img {
+  width: 150px;
+}
+.footer-copyright p {
+  margin: 15px 0;
+}
+.footer-copyright > p:nth-child(2) {
+  color: #146DB6;
+}
+.footer-copyright > p:nth-child(3) {
+  color: #BBCCE2;
+
+}
