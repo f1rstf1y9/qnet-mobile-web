@@ -121,9 +121,14 @@ button {
   display: flex;
   justify-content: space-between;
 }
+.main-small > a {
+  display: inline;
+  text-align: center;
+  width: 32%;
+}
 .main-small-icon {
   float: left;
-  width: 31%;
+  width: 100%;
 }
 
 /* 서브 아이콘 (8개) */
