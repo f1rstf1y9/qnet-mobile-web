@@ -1,3 +1,5 @@
+/* index.html style */
+
 /* 초기설정 */
 * {
   box-sizing: border-box;
@@ -5,6 +7,9 @@
 a {
   text-decoration: none;
   color: inherit;
+}
+body {
+  margin: auto;
 }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -59,10 +64,6 @@ button {
 
 
 /* 헤더 */
-div {
-  
-}
-
 .header{
   background: #fff;
   height: 60px; 
@@ -113,24 +114,7 @@ div {
   padding: 0 20px;
 }
 .main-big-icon {
-  background: #E4F5FD;
-  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.25);
-  height: 200px;
-  border-radius: 28px;
-  display: flex;
-  justify-content: space-between;
-}
-.main-big-icon > div {
-  margin: 50px 40px;
-}
-.main-big-icon > div > p:nth-child(2) {  
-  padding: 8px 0;
-  font-size: 24px;
-  font-weight: 700;
-}
-.main-big-icon > img {  
-  width: 90px;
-  margin-right: 50px;
+  width: 100%;
 }
 .main-small {
   margin: 15px 0;
@@ -140,15 +124,9 @@ div {
 .main-small-icon {
   float: left;
   width: 31%;
-  padding-bottom: 31%;
-
-  background: #ECECEC;
-  box-shadow: 2px 4px 7px -3px rgba(0, 0, 0, 0.25);
-  border-radius: 28px;
-}
-.main-small-icon img {
 }
 
+/* 서브 아이콘 (8개) */
 .sub-link {
   height: 200px;
   display: grid;
@@ -172,8 +150,8 @@ div {
   margin-top: 10px;
 }
 
-/* 컨텐츠 */
-.main-cont {
+/* 원서 접수 중 시험 */
+.first-cont {
   background: #ECECEC;
   padding: 30px;
   margin-top: 30px;
@@ -207,11 +185,66 @@ div {
   font-weight: 600;
 }
 
-
+/* 공지사항 */
 .bbs-list {
-  display: none;
+  margin: 40px 30px;
+}
+.bbs-list .btn {
+  font-size: 18px;
+  font-weight: 700;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 5px;
+}
+.bbs-list .tab p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #CECECE;
+  border-bottom: none;
+  padding: 12px;
+  font-size: 14px;
+}
+.bbs-list .tab p:last-child {
+  border: 1px solid #CECECE;
 }
 
+/* 연락처 배너 */
+.service-banner {
+  margin: 0 30px 30px 30px;
+  text-align: center;
+}
+.service-banner > div:nth-child(1) {
+  background: #F3F4F9;
+  padding: 20px;
+}
+.service-banner > div:nth-child(1) > p {
+  font-size: 13px;
+  color: #818181;
+  margin-bottom: 5px;
+}
+.service-banner > div:nth-child(1) > p:nth-child(1) {
+  font-size: 18px;
+  color: #000;
+  font-weight: 700;
+}
+.service-banner > div:nth-child(1) > p:nth-child(1) > em {
+  font-size: 12px;
+  color: #000;
+  margin-bottom: 5px;
+}
+.service-banner > div:nth-child(2) {
+  background: #357194;
+  box-shadow: 0px 4px 5px -1px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  padding: 15px;
+}
+.service-banner > div:nth-child(2) > img {
+  width: 13px;
+  margin-right: 5px;
+}
+
+/* footer */
 .footer-menu {
   height: 50px;
   background-color: #626262;

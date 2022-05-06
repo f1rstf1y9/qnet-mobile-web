@@ -1,0 +1,140 @@
+/* apply.html style */
+
+
+.container-box {
+  margin-top: 50px;
+  padding: 30px;
+}
+
+/* 첫번째 페이지 */
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container-box > ul > li:nth-child(3) > a > b {
+  color:red;
+  font-weight: 700;
+}
+.notice-list > li {
+  padding: 15px 0;
+  font-size: 14px;
+  color: #9C9C9C;
+}
+.notice-list > li img {
+  float: right;
+  width: 15px;
+}
+.check-btn {
+  position: fixed;
+  bottom: 70px;
+  text-align: left;
+  border: 1.5px solid #9C9C9C;
+  border-radius: 6px;
+  width: 88%;
+  padding: 10px;
+  margin: 0 6%;
+}
+.check-btn img {
+  position: relative;
+  top: 2px;
+}
+.check-btn span {
+  margin-left: 10px;
+  position: relative;
+  bottom: 2px;
+}
+.next-btn {
+  display: block;
+  background-color: #146DB6;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+}
+
+
+/* 두번째페이지(apply-01.html) */
+.sub-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 30px 0 10px 0;
+}
+.underline {
+  border-bottom: 1.2px solid rgba(0, 0, 0, 0.2);
+}
+.search-box {
+  display: flex;
+}
+.search-box > img {
+  width: 25px;
+  margin-right: 15px;
+}
+.search-input {
+  border: none;
+  background: #DBDBDB;
+  padding: 10px;
+  width: 100%;
+  border-radius: 25px;
+  padding-left: 15px;
+}
+.small-check-btn-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.small-check-btn {
+  text-align: left;
+  border: 2px solid #9C9C9C;
+  border-radius: 6px;
+  width: 48%;
+  padding: 6px;
+}
+.small-check-btn img {
+  position: relative;
+  top: 2px;
+  width: 20px;
+}
+.small-check-btn span {
+  margin-left: 10px;
+  position: relative;
+  bottom: 2px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #9C9C9C;
+}
+.check-card {
+  opacity: 0.5;
+  background: rgb(232, 244, 249);
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 25px;
+}
+.check-card p {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+.check-card p > em {
+  color: #146DB6;
+}
+.check-card p:first-child {
+  font-size: 15px;
+  font-weight: 700;
+}
+.check-card.checked {
+  opacity: 1;
+  border: 2px solid #146DB6
+}
+.next-btn.left {
+  left: 0;
+  width: 50%;
+  border-right: 1px solid #FFFFFF;
+}
+.next-btn.right {
+  right: 0;
+  width: 50%;
+}
