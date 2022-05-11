@@ -104,9 +104,6 @@ button {
 .header-right > button:nth-child(2) > img {
   margin-bottom: 2px;
 }
-.side-menu {
-  display: none;
-}
 
 /* 메인 아이콘 */
 .container-top {
@@ -283,4 +280,104 @@ button {
 .footer-copyright > p:nth-child(3) {
   color: #BBCCE2;
 
+}
+
+
+.black {
+  display: none;
+  border: 1px solid #000;
+  width: 100vh;
+  height: 100vh;
+  background: #000;
+  position: fixed;
+  top:0;
+  opacity: 30%;
+}
+
+.side-menu {
+  width: 80%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 1;
+  top: 0; 
+  right:-80%;
+  position: fixed;
+  transition: 0.4s;
+}
+.menu-top-top {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-top-left > p {
+  margin: 10px 0;
+}
+.dday {
+  font-size: 40px;
+  font-weight: 700;
+}
+.menu-top-btn {
+  font-size: 14px;
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.menu-top-right > img:nth-child(1) {
+  margin-right: 10px;
+  vertical-align: top;
+}
+.side-menu-top {
+  padding: 20px;
+  padding-left: 25px;
+  background-color: #146DB6;
+  color: #fff;
+}
+.menu-top-bottom {
+  text-align: center;
+  margin-top: 30px;
+}
+.menu-top-bottom > img {
+  margin: 0 5.5px;
+}
+.side-menu-bottom {
+  overflow: scroll;
+}
+.side-menu-bottom > .search-box {
+  margin: auto;
+  margin-top: 10px;
+  border-bottom: 1px solid #DBDBDB;
+  width: 90%;
+  padding: 10px 20px;
+  border: 1px solid #DBDBDB;
+  border-radius: 30px;
+  background: #FAFAFA;
+}
+.side-menu-bottom > .search-box > img {
+  float: right;
+}
+.side-menu-bottom > .search-box > input {
+  border: none;
+  background-color: inherit;
+  width: 80%;
+}
+.navi {
+  margin: 20px;
+}
+.navi li {
+  text-align: left;
+  margin-bottom: 10px;
+}
+.navi li > a {
+  display: block;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.sub-menu {
+  display: none;
+  font-size: 15px;
+  padding-left: 15px;
+}
+.sub-menu a {
+  display: block;
+  padding: 5px 10px;
 }

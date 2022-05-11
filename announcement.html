@@ -25,7 +25,7 @@
         <img src="image/search.svg" alt="search">
       </button>
       <button title="메뉴 열기">
-        <img src="image/menu-icon.svg" alt="side menu open">
+        <img src="image/menu-icon.svg" alt="side menu open" class="hamburger">
       </button>
     </button>
     </div>
@@ -59,6 +59,7 @@
   </div>
   <div class="black"></div>
   <div class="pop-up">
+    <img src="image/pop-up-bar.svg" alt="">
     <p class="title">응시시험</p>
     <div class="pop-up-cont">
       <p>시험명</p><p>2022년 정기 기능사 1회</p>
@@ -74,7 +75,86 @@
       <p>총점</p><p>100</p>
     </div>
   </div>
+
+  <!-- 사이드메뉴 -->
+  <div class="side-menu">
+    <div class="side-menu-top">
+      <div class="menu-top-top">
+        <div class="menu-top-left">
+          <p>당신의 내일을 응원합니다</p>
+          <p class="dday">D-17</p>
+          <span class="menu-top-btn">로그아웃</span>
+        </div>
+        <div class="menu-top-right">
+          <img src="image/side-menu-suhum.svg" width = "24px" alt="">
+          <img src="image/side-menu-icon-close.svg" alt="" class="side-close">
+        </div>
+      </div>
+      <div class="menu-top-bottom">
+        <img src="image/side-menu-icon-01.svg" alt="">
+        <img src="image/side-menu-line.svg" alt="">
+        <img src="image/side-menu-icon-02.svg" alt="">
+        <img src="image/side-menu-line.svg" alt="">
+        <img src="image/side-menu-icon-03.svg" alt="">
+        <img src="image/side-menu-line.svg" alt="">
+        <img src="image/side-menu-icon-04.svg" alt="">
+      </div>
+    </div>
+    <div class="side-menu-bottom">
+      <div class="search-box">
+        <input type="text" placeholder="어떤 메뉴를 찾고 계십니까?">
+        <img src="image/side-search-btn.svg" width="15px" alt="">
+      </div>
+      <div class="navi">
+        <ul class="menu">
+          <li>
+            <a href="#none" class="close">
+              <img src="image/toggle-close.svg" alt=""> 기술자격시험</a>
+            <div class="sub-menu">
+              <a href="#none">원서접수</a>
+              <a href="#none">합격자/답안발표</a>
+              <a href="#none">시험일정</a>
+              <a href="#none">필기시험안내</a>
+              <a href="#none">실기시험안내</a>
+              <a href="#none">자격정보</a>
+              <a href="#none">자격검정통계</a>
+              <a href="#none">국가기술자격대여근절캠페인</a>
+            </div>
+          </li>
+          <li>
+            <a href="#none" class="close">
+              <img src="image/toggle-close.svg" alt=""> 전문자격시험</a>
+            <div class="sub-menu">
+              <a href="#none">가맹거래사</a>
+              <a href="#none">국내여행안내사</a>
+              <a href="#none">산업보건지도사</a>
+              <a href="#none">청소년상담사</a>
+              <a href="#none">검량사</a>
+              <a href="#none">농산물품질관리사</a>
+              <a href="#none">세무사</a>
+              <a href="#none">한국어교육능력검정시험</a>
+            </div>
+          </li>
+          <li>
+            <a href="#none" class="close">
+              <img src="image/toggle-close.svg" alt=""> 자격증/확인서</a>
+            <div class="sub-menu">
+              <a href="#none">자격증발급안내</a>
+              <a href="#none">자격증발급</a>
+              <a href="#none">확인서발급</a>
+              <a href="#none">원서접수관리</a>
+              <a href="#none">응시자격</a>
+              <a href="#none">발급조회현황</a>
+              <a href="#none">면제정보보기</a>
+              <a href="#none">개인정보관리</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="script/menu.js"></script>
   <script src="script/announcement.js"></script>
 </body>
 </html>

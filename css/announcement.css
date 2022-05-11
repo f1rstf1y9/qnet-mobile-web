@@ -64,17 +64,6 @@
   border: 2px solid #146DB6
 }
 
-.black {
-  display: none;
-  border: 1px solid #000;
-  width: 100vh;
-  height: 100vh;
-  background: #000;
-  position: fixed;
-  top:0;
-  opacity: 30%;
-}
-
 .pop-up {
   display: none;
   background-color: #fff;
@@ -82,17 +71,25 @@
   bottom: 0;
   width: 100%;
   padding: 30px;
+  padding-top: 15px;
   border-radius: 10px 10px 0 0;
+}
+.pop-up {
+  text-align: center;
+}
+.pop-up > img {
+  padding-bottom: 20px;
 }
 .pop-up > .title {
   margin: 20px 0 10px 0;
   font-weight: 700;
   color: #146DB6;
-  ;
+  text-align: left;
 }
 .pop-up-cont {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  text-align: left;
 }
 .pop-up-cont > p {
   margin: 5px 0;
