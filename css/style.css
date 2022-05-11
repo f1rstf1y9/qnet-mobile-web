@@ -99,10 +99,10 @@ button {
 }
 .header-right img {
   width: 23px;
-  margin-left: 3px;
+  margin: 0 5px;
 }
 .header-right > button:nth-child(2) > img {
-  margin-bottom: 3px;
+  margin-bottom: 2px;
 }
 .side-menu {
   display: none;
@@ -220,7 +220,8 @@ button {
   text-align: center;
 }
 .service-banner > div:nth-child(1) {
-  background: #F3F4F9;
+  background: #e8f4f983;
+  ;
   padding: 20px;
 }
 .service-banner > div:nth-child(1) > p {

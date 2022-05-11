@@ -30,13 +30,14 @@
     </button>
     </div>
   </div>
+  <!-- 컨테이너 -->
   <div class="container-box">
     <img class="progress-bar" src="image/progress-bar-01.svg" alt="">
     <p class="title">학력정보</p>
     <div>
       <p class="sub-title">학력</p>
-      <div class="small-check-btn-box">
-        <button class="small-check-btn checked">
+      <div class="small-check-btn-box first">
+        <button class="small-check-btn">
           <img src="image/checkbox-unchecked.svg" alt="">
           <span>중학교 이하</span>
         </button>
@@ -44,18 +45,22 @@
           <img src="image/checkbox-unchecked.svg" alt="">
           <span>고등학교</span>
         </button>
-        <button class="small-check-btn checked">
+        <button class="small-check-btn">
           <img src="image/checkbox-unchecked.svg" alt="">
-          <span>중학교 이하</span>
+          <span>대학교</span>
         </button>
         <button class="small-check-btn">
           <img src="image/checkbox-unchecked.svg" alt="">
-          <span>고등학교</span>
+          <span>전문대학</span>
+        </button>
+        <button class="small-check-btn">
+          <img src="image/checkbox-unchecked.svg" alt="">
+          <span>대학원</span>
         </button>
       </div>
       <p class="sub-title">수료과정</p>
-      <div class="small-check-btn-box">
-        <button class="small-check-btn checked">
+      <div class="small-check-btn-box second">
+        <button class="small-check-btn">
           <img src="image/checkbox-unchecked.svg" alt="">
           <span>재학</span>
         </button>
@@ -63,7 +68,7 @@
           <img src="image/checkbox-unchecked.svg" alt="">
           <span>휴학</span>
         </button>
-        <button class="small-check-btn checked">
+        <button class="small-check-btn">
           <img src="image/checkbox-unchecked.svg" alt="">
           <span>졸업</span>
         </button>
@@ -74,7 +79,9 @@
       </div>
     </div>
   </div>
-  <a href="apply-01.html" class="next-btn left">이전</a>
-  <a href="apply-03.html" class="next-btn right">다음</a>
+  <a href="apply-01.html" class="next-btn left clicked">이전</a>
+  <a href="#" class="next-btn right">다음</a>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="script/apply.js"></script>
 </body>
 </html>

@@ -1,0 +1,40 @@
+.container-box {
+  margin-top: 50px;
+  padding: 30px;
+}
+.progress-bar {
+  width: 100%;
+}
+.check-card {
+  /* opacity: 0.5; */
+  background: rgb(232, 244, 249);
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 25px 20px 20px 20px;
+}
+.check-card > div {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.check-card:nth-child(1){
+  margin-top: 20px;
+}
+.check-card > div p {
+  font-size: 13px;
+  font-weight: 500;
+  margin: 5px 0;
+}
+.check-card > div {
+  margin-top: 10px;
+}
+.check-card > div > p:nth-child(odd) {
+  color: #146DB6;
+}
+.check-card > p:first-child {
+  font-size: 18px;
+  font-weight: 700;
+}
+.check-card.checked {
+  opacity: 1;
+  border: 2px solid #146DB6
+}

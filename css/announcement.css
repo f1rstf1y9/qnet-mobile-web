@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-box {
+  margin-top: 50px;
+  padding: 30px;
+}
+.nav-div {
+  margin-bottom: 20px;
+}
+/* .nav {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+} */
+.nav > li {
+  display: inline-block;
+  padding: 0 5px;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 10px;
+  /* border-bottom: 2px solid rgba(0, 0, 0, 0.5); */
+}
+.nav > li.active {
+  display: inline-block;
+}
+.nav > li.active {
+  border-bottom: 2px solid #146DB6;
+}
+.nav > li.active > a {
+  color: #146DB6;
+}
+.check-card {
+  opacity: 0.5;
+  background: rgb(232, 244, 249);
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 25px 20px 20px 20px;
+}
+.check-card > div {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.check-card:nth-child(1){
+  margin-top: 20px;
+}
+.check-card > div p {
+  font-size: 13px;
+  font-weight: 500;
+  margin: 5px 0;
+}
+.check-card > div {
+  margin-top: 10px;
+}
+.check-card > div > p:nth-child(odd) {
+  color: #146DB6;
+}
+.check-card > p:first-child {
+  font-size: 18px;
+  font-weight: 700;
+}
+.check-card.checked {
+  opacity: 1;
+  border: 2px solid #146DB6
+}
+
+.black {
+  border: 1px solid #000;
+  width: 100vh;
+  height: 100vh;
+  background: #000;
+  position: fixed;
+  top:0;
+  opacity: 30%;
+}
+
+.pop-up {
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px 10px 0 0;
+}
+.pop-up > .title {
+  margin: 20px 0 10px 0;
+  font-weight: 700;
+  color: #146DB6;
+  ;
+}
+.pop-up-cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.pop-up-cont > p {
+  margin: 5px 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+.pop-up-cont > p:nth-child(even){
+  text-align: right;
+}
