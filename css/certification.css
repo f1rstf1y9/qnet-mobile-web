@@ -19,13 +19,16 @@
 .check-card:nth-child(1){
   margin-top: 20px;
 }
+.check-card > div {
+  margin-top: 10px;
+}
 .check-card > div p {
   font-size: 13px;
   font-weight: 500;
   margin: 5px 0;
 }
-.check-card > div {
-  margin-top: 10px;
+.check-card > img {
+ float: right;
 }
 .check-card > div > p:nth-child(odd) {
   color: #146DB6;
@@ -33,8 +36,23 @@
 .check-card > p:first-child {
   font-size: 18px;
   font-weight: 700;
+  display: inline-block;
 }
 .check-card.checked {
   opacity: 1;
   border: 2px solid #146DB6
+}
+
+.next-btn {
+  display: block;
+  background-color: #9C9C9C;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 18px;
+  position: fixed;
+  bottom: 0;
+}
+.next-btn.clicked {
+  background-color: #146DB6;
 }
