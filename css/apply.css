@@ -33,10 +33,19 @@
   width: 15px;
 }
 .notice-cont {
-  background: #C1E1FF;
+  background: #c1e1ff46;
   margin-top: 10px;
   padding: 10px;
   display: none;
+  line-height: 25px;
+}
+.notice-cont b {
+  color: red;
+}
+tr, th, td {
+  border: 1px solid #9C9C9C;
+  font-size: 12px;
+  text-align: center;
 }
 .check-btn {
   position: fixed;
