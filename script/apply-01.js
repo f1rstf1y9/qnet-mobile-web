@@ -34,5 +34,5 @@ $(".second > .small-check-btn").on("click", function(){
 })
 
 $("a.next-btn.right").on("click", function(){
-  alert('에제 페이지는 응시 유형 단계까지 구현하였습니다.')
+  alert('예제 페이지는 응시 유형 단계까지 구현하였습니다.')
 })
