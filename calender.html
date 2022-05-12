@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/apply.css">
+    <link rel="stylesheet" href="css/calendar.css">
+    <link rel="stylesheet" href="rolyart-calendar-master/style.css">
     <title>자격선택 - 시험일정 안내 | Q-Net</title>
   </head>
 <body>
@@ -31,6 +32,51 @@
     </div>
   </div>
   <div class="container-box">
+    <!-- 검색 영역 -->
+    <div class="search-box">
+      <img src="image/search-black.svg" alt="">
+      <input class ="search-input" type="text" placeholder="응시종목">  
+    </div>
+    <!-- 캘린더 영역 -->
+    <div id="calendar"></div>
+  </div>
+  <div class="test-list-cont">
+    <div class="test-list">
+      <div class="left">
+        <img src="image/calendar-point-01.svg" alt="">
+      </div>
+      <div class="right">
+        <p>2022년 정기 기능사 3회 필기시험 원서접수</p>
+        <p>2022년 05월 24일 ~ 2022년 05월 27일</p>
+      </div>
+    </div>
+    <div class="test-list">
+      <div class="left">
+        <img src="image/calendar-point-02.svg" alt="">
+      </div>
+      <div class="right">
+        <p>2022년 정기 기능사 2회 실기시험</p>
+        <p>2022년 05월 29일 ~ 2022년 06월 17일</p>
+      </div>
+    </div>
+    <div class="test-list">
+      <div class="left">
+        <img src="image/calendar-point-03.svg" alt="">
+      </div>
+      <div class="right">
+        <p>2022년 정기 기능사 3회 필기시험</p>
+        <p>2022년 06월 12일 ~ 2022년 06월 18일</p>
+      </div>
+    </div>
+    <div class="test-list">
+      <div class="left">
+        <img src="image/calendar-point-04.svg" alt="">
+      </div>
+      <div class="right">
+        <p>2022년 정기 기능사 2회 합격자 발표</p>
+        <p>2022년 06월 24일 ~ 2022년 08월 23일</p>
+      </div>
+    </div>
   </div>
   <!-- 사이드메뉴 -->
   <div class="black"></div>
@@ -111,6 +157,8 @@
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="rolyart-calendar-master/rolyart-calendar.js"></script>
   <script src="script/menu.js"></script>
+  <script src="script/calendar.js"></script>
 </body>
 </html>

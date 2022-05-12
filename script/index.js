@@ -13,10 +13,17 @@ $(".check-btn").on("click", function(){
     $(".next-btn").addClass("clicked");
     $(".next-btn").attr("href", "apply-01.html");
     $(this).children("img").attr("src", "image/checkbox-checked.svg")
+    $('.modal-box').fadeIn();
+    $('.black').fadeIn();
+    $('.modal').fadeIn();
   }
 })
 
-
+$('.close-modal').click(function(){
+  $('.modal-box').fadeOut();
+  $('.black').fadeOut();
+  $('.modal').fadeOut();
+})
 
 
 $(".check-card").on("click", function(){

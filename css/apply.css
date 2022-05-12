@@ -87,6 +87,48 @@ tr, th, td {
 .next-btn.clicked {
   background-color: #146DB6;
 }
+.modal-box {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 50px; 
+}
+.modal {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 60%;
+  overflow: scroll;
+  background-color: #fff;
+  border: 2px solid #146DB6;
+  border-radius: 15px;
+  padding: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25px;
+}
+.modal p:first-child {
+  font-weight: 700;
+  font-size: 17px;
+}
+.modal b {
+  color: #146DB6;
+}
+.close-modal {
+  display: block;
+  background:#146DB6;
+  padding: 5px 15px;
+  color: #fff;
+  margin: 10px 0;
+  border-radius: 5px;
+  float: right;
+}
 
 
 /* 두번째페이지(apply-01.html) */
